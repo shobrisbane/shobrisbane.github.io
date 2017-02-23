@@ -36,17 +36,16 @@ body {
 }
 
 ul.logo1 {
-    display: table;
-    width:100%;
+display:inline-block;
+width:50%;
 }
 ul.logo1 > li:nth-child(2n+1) {
     clear: both;
 }
 
 ul.logo1 > li {
-    display: table-cell;
-    float: left;
-    width: 50%;
+display:inline-block;
+width:50%;
 }
 
 
@@ -76,11 +75,9 @@ ul.logo2 > li:nth-child(2n+1) {
 }
 
 ul.logo2 > li {
-    display: table-cell;
-    float: left;
-    width: 50%;
+display:inline-block;
+width:50%;
 }
-
 
 .logo3 {
   padding: 20px 0;
@@ -100,19 +97,12 @@ ul.logo2 > li {
 }
 
 ul.logo3 {
-    display: table;
-    width:100%;
+display:inline-block;
+width:50%;
 }
 ul.logo3 > li:nth-child(2n+1) {
     clear: both;
 }
-
-ul.logo3 > li {
-    display: table-cell;
-    float: left;
-    width: 50%;
-}
-
 
 .logo4 {
   padding: 20px 0;
@@ -132,18 +122,13 @@ ul.logo3 > li {
 }
 
 ul.logo4 {
-    display: table;
-    width:100%;
+display:inline-block;
+width:50%;
 }
 ul.logo4 > li:nth-child(2n+1) {
     clear: both;
 }
 
-ul.logo4 > li {
-    display: table-cell;
-    float: left;
-    width: 50%;
-}
 nav {
   margin: 0 0 30px 0;
   padding: 10px 0;
